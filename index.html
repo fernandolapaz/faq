@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend Mentor Challenge">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="card">
+    <img src="images/illustration-woman-online-mobile.svg" alt="" class="card__img-mobile" width="100%" height="100%">
+    <div class="card__img-desktop">
+      <img src="images/illustration-woman-online-desktop.svg" alt="" width="100%" height="100%">
+    </div>
+
+    <div class="card__text">
+      <h1 class="text__title">FAQ</h1>
+      <ul class="text__accordion">
+        <li>
+          <button class="accordion__question" type="button" aria-expanded="false">
+            How many team members can I invite?
+          </button>
+          <p class="accordion__answer" aria-hidden="true">
+            You can invite up to 2 additional users on the Free plan. There is no limit on
+            team members for the Premium plan.
+          </p>
+        </li>
+        <li>
+          <button class="accordion__question" type="button" aria-expanded="false">
+            What is the maximum file upload size?
+          </button>
+          <p class="accordion__answer" aria-hidden="true">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </p>
+        </li>
+        <li>
+          <button class="accordion__question" type="button" aria-expanded="false">
+            How do I reset my password?
+          </button>
+          <p class="accordion__answer" aria-hidden="true">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          </p>
+        </li>
+        <li>
+          <button class="accordion__question" type="button" aria-expanded="false">
+            Can I cancel my subscription?
+          </button>
+          <p class="accordion__answer" aria-hidden="true">
+            Yes! Send us a message and we'll process your request no questions asked.
+          </p>
+        </li>
+        <li>
+          <button class="accordion__question" type="button" aria-expanded="false">
+            Do you provide additional support?
+          </button>
+          <p class="accordion__answer" aria-hidden="true">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/fernandolapaz">Fernando</a>.
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
